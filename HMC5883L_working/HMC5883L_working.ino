@@ -102,7 +102,6 @@ void loop(){
 //  Serial.print(" Z : ");
 //  Serial.println(sample.Z);
   Serial.println(GetHeadingDegrees(sample));
-  while(!Serial.available());
 }
 
 void updateMagnetometerData()
